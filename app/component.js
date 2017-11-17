@@ -1,10 +1,22 @@
 'use strict';
 
+//Greeter,js
+import React, {Component} from 'react'
+import config from './config.json';
 
-module.exports = function () {
-    var element = document.createElement('h1');
+import styles from './component.css'
 
-    element.innerHTML = 'Hello world';
+class Greeter extends Component{
+    render() {
+        return (
+            <div>
+                {/*添加类名*/}
+                <div className={styles.root}>
+                    {config.greetText}
+                </div>
+    </div>
+    );
+    }
+}
 
-    return element;
-};
+export default Greeter
