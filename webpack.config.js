@@ -48,5 +48,8 @@ module.exports={
                 ]
             }
         ]
-    }
+    },
+    // plugins:[
+    //     new webpack.BannerPlugin('版权所有,翻版不')
+    // ],
 };
