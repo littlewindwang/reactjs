@@ -3,7 +3,7 @@
 // // main.js
 import React from 'react';
 import {render} from 'react-dom';
-import Website from './Website';
+// import Website from './Website';
 import LikeButton from './LikeButton'
 
 
@@ -13,7 +13,11 @@ import LikeButton from './LikeButton'
 // render(<Greeter />, document.getElementById('root'));
 
 
+// render(
+//     <Website name="cainiao" site={"www.google.com"}/>,
+//     document.getElementById('thisIsId')
+// );
 render(
-<LikeButton />,
-    document.getElementById('root')
+    <LikeButton />,
+    document.getElementById('thisIsId')
 );

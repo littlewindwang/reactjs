@@ -1,14 +1,24 @@
 import React, {Component} from 'react'
 
 class LikeButton extends Component {
-    constructor(props){
-        super(props),
+
+
+    static defaultProps = {
+        name:'你好'
+    }
+
+    constructor(){
+        super(),
             this.state={liked:false}
     }
 
     // getInitialState() {
     //     return {liked: false};
-    // }
+
+
+
+
+
 
 
     handleClick(event) {
