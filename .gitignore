@@ -1,2 +1,11 @@
 node_modules/
 build/bundle.js
+\.idea/misc\.xml
+
+\.idea/modules\.xml
+
+\.idea/reactjs\.iml
+
+\.idea/vcs\.xml
+
+\.idea/workspace\.xml
